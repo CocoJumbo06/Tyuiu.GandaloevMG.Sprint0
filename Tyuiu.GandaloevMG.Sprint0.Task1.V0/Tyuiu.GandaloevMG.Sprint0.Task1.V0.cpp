@@ -1,14 +1,27 @@
-// Tyuiu.GandaloevMG.Sprint0.Task0.V0.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Tyuiu.GandaloevMG.Sprint0.Task1.V0.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-
 using namespace std;
 int main()
 {
-        setlocale(LC_ALL, "Russian");
-        cout << "Hello World!\n";
-       
+    setlocale(LC_ALL, "Russian");
+    cout << "Hello World!\n";
+    cout << "Введите имя :";
+    string a;
+    cin >> a;
+    cout << "Приятно познакомиться" << endl;
+    cout << "С какого ты города :";
+    string y;
+    cin >> y;
+    cout << "Сколько тебе лет:";
+    string v;
+    cin >> v;
+    return 0;
+
+    
+   
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
