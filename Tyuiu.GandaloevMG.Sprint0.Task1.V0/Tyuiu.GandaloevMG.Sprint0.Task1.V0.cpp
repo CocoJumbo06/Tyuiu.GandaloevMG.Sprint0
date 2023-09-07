@@ -17,7 +17,9 @@ int main()
     cout << "Сколько тебе лет:";
     string v;
     cin >> v;
+    
     return 0;
+    
 
     
    
