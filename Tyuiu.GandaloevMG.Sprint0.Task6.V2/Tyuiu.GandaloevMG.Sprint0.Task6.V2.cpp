@@ -1,30 +1,24 @@
-// Tyuiu.GandaloevMG.Sprint0.Task5.V2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+ï»¿// Tyuiu.GandaloevMG.Sprint0.Task6.V2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include "../Tyuiu.GandaloevMG.Sprint0.Task5.V2.Lib/Tyuiu.GandaloevMG.Sprint0.Task5.V2.Lib.cpp"
+#include "../Tyuiu.GandaloevMG.Sprint0.Task6.V2.Lib/Tyuiu.GandaloevMG.Sprint0.Task6.V2.Lib.cpp"
 using namespace std;
 int main()
 {
+    
 	setlocale(LC_ALL, "Russian");
-	ISprint0Task5* date = new Service();
-	cout << "Gandalow " <<"Muhammad "<<"Ahmetovich\n";
-	
-	float a = 2.75;
-	float b = 0.5;
-	float c = 7;
-	cout << "Öåíà òåòðàäèé:";
-	cin >> a;
-	cout << "Öåíà îáëîæêè:";
-	cin >> b;
-	cout << "Êîëè÷åñòâî êîìïëåêòîâ:";
-	cin >> c;
-	float d;
-	d = (a + b) * c;
-	cout << d;
-	return 0;
+	ISprint0Task6* date = new Service();
+	cout << "Gandalow " << "Muhammad " << "Ahmetovich\n";
+    cout << " Ð ÐµÑˆÐ¸Ñ‚ÑŒ ÑƒÑ€Ð¾Ð²Ð½ÐµÐ½Ð¸Ðµ --> x * y /(5+x) + 6\n";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ x : ";
+    float a;
+    cin >> a;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ y : ";
+    int b;
+    cin >> b;
+    cout << "\n\nÐ ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ñ€Ð°Ð²ÐµÐ½: " << date->Calculate(a, b);
 }
-
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
