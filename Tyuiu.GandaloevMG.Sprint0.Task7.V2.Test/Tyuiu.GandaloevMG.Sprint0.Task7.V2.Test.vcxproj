@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{FB9E1F85-CFD3-48BD-9809-E6CA73E74DE8}</ProjectGuid>
+    <ProjectGuid>{6FBEE688-62F1-4ED6-840D-D1D211C1D668}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>TyuiuGandaloevMGSprint0Task6V2Test</RootNamespace>
+    <RootNamespace>TyuiuGandaloevMGSprint0Task7V2Test</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectSubType>NativeUnitTestProject</ProjectSubType>
   </PropertyGroup>
@@ -162,18 +162,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Tyuiu.GandaloevMG.Sprint0.Task6.V2.Test.cpp" />
+    <ClCompile Include="Tyuiu.GandaloevMG.Sprint0.Task7.V2.Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.GandaloevMG.Sprint0.Task6.V2\Tyuiu.GandaloevMG.Sprint0.Task6.V2.vcxproj">
-      <Project>{a9011c4a-3f2d-4e1f-839c-b6ace463def9}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Tyuiu.GandaloevMG.Sprint0.Task7.V2\Tyuiu.GandaloevMG.Sprint0.Task7.V2.vcxproj">
-      <Project>{84a2ff19-3adb-437c-b743-492cd33a3d58}</Project>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
